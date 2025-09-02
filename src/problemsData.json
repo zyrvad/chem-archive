@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Stoichiometry of Combustion",
+    "description": "Calculate the mass of CO2 produced from the complete combustion of a given mass of propane.",
+    "category": "Stoichiometry",
+    "imageSrc": "https://via.placeholder.com/150/0000FF/FFFFFF?text=Stoichiometry"
+  },
+  {
+    "id": 2,
+    "name": "Acid-Base Titration",
+    "description": "Determine the concentration of an unknown HCl solution by titrating it with a standard NaOH solution.",
+    "category": "Acids & Bases",
+    "imageSrc": "https://via.placeholder.com/150/FF5733/FFFFFF?text=Titration"
+  },
+  {
+    "id": 3,
+    "name": "Redox Reaction Balancing",
+    "description": "Balance a complex redox reaction in acidic solution using the half-reaction method.",
+    "category": "Redox",
+    "imageSrc": "https://via.placeholder.com/150/33FF57/FFFFFF?text=Redox"
+  },
+  {
+    "id": 4,
+    "name": "Gas Laws and Molar Volume",
+    "description": "A balloon contains a certain volume of gas at a specific temperature and pressure. Predict the new volume under new conditions.",
+    "category": "Gases",
+    "imageSrc": "https://via.placeholder.com/150/8A2BE2/FFFFFF?text=Gases"
+  }
+]
