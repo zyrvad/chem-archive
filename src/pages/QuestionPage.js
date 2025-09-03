@@ -36,7 +36,7 @@ export default function QuestionPage({ question, onNavigateBack }) {
             />
           </div>
         )}
-        <p className="text-lg text-slate-700 leading-relaxed whitespace-pre-wrap">{question.description}</p>
+        <p className="text-lg text-slate-700 leading-relaxed whitespace-pre-wrap">{question.full}</p>
       </div>
     </div>
   );

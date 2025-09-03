@@ -1,8 +1,8 @@
-// App.js
 import React, { useState } from 'react';
 import Header from './components/Header.js';
 import Home from './pages/Home.js';
 import Problems from './pages/Problems.js';
+import Learn from './pages/Learn.js';
 import QuestionPage from './pages/QuestionPage.js';
 import problemsData from './problemsData.json'
 
@@ -32,6 +32,9 @@ export default function App() {
         // Pass the function to handle question selection down to Problems
         component = <Problems problemsData={problemsData} onSelectQuestion={setSelectedQuestion}/>;
       }
+      break;
+    case 'learn':
+      component = <Learn />;
       break;
     default:
       component = <Home />;

@@ -1,4 +1,3 @@
-// Header.js
 import React from 'react';
 
 export default function Header({ onNavigate }) {
@@ -22,6 +21,13 @@ export default function Header({ onNavigate }) {
             className="hover:text-gray-300 transition-colors"
           >
             Problems
+          </a>
+          <a
+            href="#"
+            onClick={() => onNavigate('learn')}
+            className="hover:text-gray-300 transition-colors"
+          >
+            Learn
           </a>
         </div>
       </nav>
