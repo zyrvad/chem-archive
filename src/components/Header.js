@@ -29,6 +29,13 @@ export default function Header({ onNavigate }) {
           >
             Learn
           </a>
+          <a
+            href="#"
+            onClick={() => onNavigate('profile')}
+            className="hover:text-gray-300 transition-colors"
+          >
+            Profile
+          </a>
         </div>
       </nav>
     </header>

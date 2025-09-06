@@ -4,7 +4,8 @@ import Home from './pages/Home.js';
 import Problems from './pages/Problems.js';
 import Learn from './pages/Learn.js';
 import QuestionPage from './pages/QuestionPage.js';
-import problemsData from './problemsData.json'
+import User from './pages/User.js';
+import problemsData from './chemistry_problems-2.json'
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -35,6 +36,9 @@ export default function App() {
       break;
     case 'learn':
       component = <Learn />;
+      break;
+    case 'profile':
+      component = <User />
       break;
     default:
       component = <Home />;
